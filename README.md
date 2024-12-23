@@ -89,6 +89,8 @@ This project implements the following methods for anomaly detection:
 ## Results
 The performance of each method on the three datasets is summarized, highlighting strengths and weaknesses. Detailed results and insights are provided in the `Results` section of the project repository.
 
+
+### GoodsAD Dataset
 | Object         | AutoEncoder | KNN + ResNet | ResNet + AutoEncoder | SimpleNet |
 |----------------|-------------|--------------|----------------------|-----------|
 | cigarette_box  | 0.69        | 0.69         | 0.86                 | 0.81      |
@@ -97,6 +99,26 @@ The performance of each method on the three datasets is summarized, highlighting
 | food_bottle    | 0.60        | 0.63         | 0.72                 | 0.73      |
 | food_box       | 0.59        | 0.57         | 0.66                 | 0.71      |
 | food_package   | 0.56        | 0.50         | 0.58                 | 0.56      |
+
+
+### MvTecAD Dataset
+| Object         | AutoEncoder | KNN + ResNet | ResNet + AutoEncoder | SimpleNet |
+|----------------|-------------|--------------|----------------------|-----------|
+| bottle         | 0.77        | 0.97         | 1.00                 | 1.00      |
+| cable          | 0.50        | 0.78         | 0.99                 | 1.00      |
+| capsule        | 0.60        | 0.77         | 0.95                 | 0.97      |
+| carpet         | 0.43        | 0.74         | 0.99                 | 0.99      |
+| grid           | 0.87        | 0.82         | 0.98                 | 0.99      |
+| hazelnut       | 0.89        | 0.88         | 1.00                 | 1.00      |
+| leather        | 0.43        | 0.95         | 1.00                 | 1.00      |
+| metal_nut      | 0.33        | 0.76         | 0.99                 | 1.00      |
+| pill           | 0.83        | 0.68         | 0.95                 | 0.98      |
+| screw          | 0.65        | 0.76         | 0.90                 | 0.97      |
+| tile           | 0.65        | 0.99         | 0.99                 | 1.00      |
+| toothbrush     | 0.73        | 0.81         | 0.97                 | 0.98      |
+| transistor     | 0.54        | 0.84         | 0.98                 | 0.99      |
+| wood           | 0.94        | 0.92         | 0.99                 | 1.00      |
+| zipper         | 0.35        | 0.99         | 0.98                 | 1.00      |
 
 
 ## Future Work
