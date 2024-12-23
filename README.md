@@ -121,6 +121,15 @@ The performance of each method on the three datasets is summarized, highlighting
 | zipper         | 0.35        | 0.99         | 0.98                 | 1.00      |
 
 
+### WFDD Dataset
+| Object         | AutoEncoder | KNN + ResNet | ResNet + AutoEncoder | SimpleNet |
+|----------------|-------------|--------------|----------------------|-----------|
+| grey_cloth     | 0.63        | 0.99         | 1.00                 | 1.00      |
+| grid_cloth     | 0.95        | 0.87         | 0.92                 | 0.90      |
+| pink_flower    | 0.81        | 0.41         | 0.72                 | 0.89      |
+| yellow_cloth   | 0.80        | 0.91         | 0.98                 | 0.98      |
+
+
 ## Future Work
 - Extend the system to handle other types of anomalies and datasets.
 - Improve the efficiency of the models for real-time anomaly detection.
