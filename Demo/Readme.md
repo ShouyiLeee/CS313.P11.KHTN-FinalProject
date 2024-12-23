@@ -36,19 +36,22 @@ This web demo visualizes the results of our Anomaly Detection system for Quality
 
 1. **Install Dependencies**:
    Follow the instructions in the `requirements.md` file to set up the environment.
+      ```bash
+   pip install -r requirments.txt
+   ```
 
-2. **Run the Web App**:
+3. **Run the Web App**:
    ```bash
    streamlit run DemoWeb.py
    ```
 
-3. **Access the Demo**:
+4. **Access the Demo**:
    Open a browser and navigate to:
    ```
    http://localhost:8501
    ```
 
-4. **Upload and Analyze Images**:
+5. **Upload and Analyze Images**:
    Use the interface to upload images and view results.
 
 
