@@ -1,6 +1,5 @@
 # CS313.P11.KHTN-FinalProject
 
-#-------------------------------------------------------
 
 # Anomaly Detection for Quality Control System
 
