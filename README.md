@@ -34,14 +34,18 @@ This project implements the following methods for anomaly detection:
 ### 1. MvTecAD
 - **Description**: A dataset comprising high-resolution images of industrial objects and textures.
 - **Anomalies**: Includes scratches, dents, and other manufacturing defects.
+- **link** : [MvTecAD](https://www.kaggle.com/datasets/ipythonx/mvtec-ad)
+
 
 ### 2. WFDD (Wooden Flaw Detection Dataset)
 - **Description**: Images of wooden surfaces with and without flaws.
 - **Anomalies**: Cracks, knots, and other imperfections.
+-  **link** : [WFDD](https://github.com/cqylunlun/GLASS)
 
 ### 3. GoodsAD
 - **Description**: A dataset for anomaly detection in everyday goods.
 - **Anomalies**: Includes defects such as missing parts, scratches, or incorrect assembly.
+-  **link** : [GoodsAD](https://github.com/jianzhang96/GoodsAD)
 
 ## Workflow
 1. **Data Preprocessing**:
@@ -59,31 +63,20 @@ This project implements the following methods for anomaly detection:
 4. **Comparison**:
    - The results of all methods are compared to identify the most effective approach for anomaly detection.
 
-## Results
-The performance of each method on the three datasets is summarized, highlighting strengths and weaknesses. Detailed results and insights are provided in the `Results` section of the project repository.
+
 
 ## How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/anomaly-detection-qcs.git
+   git clone https://github.com/ShouyiLeee/CS313.P11.KHTN-FinalProject.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd anomaly-detection-qcs
+   CS313.P11.KHTN-FinalProject
    ```
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
-   ```
-4. Run the training script:
-   ```bash
-   python train.py --method <method_name> --dataset <dataset_name>
-   ```
-   Replace `<method_name>` with `autoencoder`, `knn_resnet`, `resnet_autoencoder`, or `simplenet`, and `<dataset_name>` with `mvtec`, `wfdd`, or `goodsad`.
-
-5. View results:
-   ```bash
-   python evaluate.py --method <method_name> --dataset <dataset_name>
    ```
 
 ## Repository Structure
@@ -93,13 +86,25 @@ The performance of each method on the three datasets is summarized, highlighting
 - `results/`: Stores evaluation results and visualizations.
 - `README.md`: Project description.
 
+## Results
+The performance of each method on the three datasets is summarized, highlighting strengths and weaknesses. Detailed results and insights are provided in the `Results` section of the project repository.
+
+| Object         | AutoEncoder          | KNN + ResNet         | ResNet + AutoEncoder | SimpleNet           |
+|----------------|----------------------|----------------------|----------------------|----------------------|
+|                | AUC-ROC | Accuracy | F1   | AUC-ROC | Accuracy | F1   | AUC-ROC | Accuracy | F1   | AUC-ROC | Accuracy | F1   |
+| cigarette_box  | 0.69    | 0.64     | 0.75 | 0.69    | 0.65     | 0.75 | 0.86    | 0.85     | 0.87 | 0.81    | 0.60     | 0.74 |
+| drink_bottle   | 0.51    | 0.54     | 0.70 | 0.51    | 0.53     | 0.69 | 0.58    | 0.56     | 0.71 | 0.61    | 0.60     | 0.75 |
+| drink_can      | 0.56    | 0.50     | 0.66 | 0.56    | 0.52     | 0.65 | 0.68    | 0.67     | 0.71 | 0.60    | 0.50     | 0.66 |
+| food_bottle    | 0.60    | 0.56     | 0.70 | 0.63    | 0.60     | 0.71 | 0.72    | 0.70     | 0.73 | 0.73    | 0.62     | 0.75 |
+| food_box       | 0.59    | 0.55     | 0.62 | 0.57    | 0.53     | 0.57 | 0.66    | 0.64     | 0.69 | 0.71    | 0.64     | 0.77 |
+| food_package   | 0.56    | 0.50     | 0.55 | 0.50    | 0.49     | 0.52 | 0.58    | 0.50     | 0.64 | 0.56    | 0.52     | 0.61 |
+
+
 ## Future Work
 - Extend the system to handle other types of anomalies and datasets.
 - Improve the efficiency of the models for real-time anomaly detection.
 - Explore semi-supervised and self-supervised approaches for anomaly detection.
 
 ## Contributors
-- [Your Name](https://github.com/your-profile)
+- [ShouyiLeee](https://github.com/ShouyiLeee)
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
