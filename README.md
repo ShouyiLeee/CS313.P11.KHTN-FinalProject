@@ -80,14 +80,15 @@ This project implements the following methods for anomaly detection:
    ```
 
 ## Repository Structure
-- `datasets/`: Contains the datasets used in this project.
-- `models/`: Includes implementations of the four methods.
-- `scripts/`: Training and evaluation scripts.
-- `results/`: Stores evaluation results and visualizations.
+- `Demo/`: The Streamlit Demo Website for visualize result of project.
+- `Result/`: Stores evaluation results of experimental.
+- `SimpleNetModel`: Training and evaluation scripts.
+- `TrainLoss`: Stores evaluation results and visualizations.
+- `model/`: Includes pretrained models of each type of object in 3 dataset.
 - `README.md`: Project description.
 
 ## Results
-The performance of each method on the three datasets is summarized, highlighting strengths and weaknesses. Detailed results and insights are provided in the `Results` section of the project repository.
+The performance of each method on the three datasets is summarized, highlighting strengths and weaknesses. Detailed results and insights are provided in the `Result` section of the project repository.
 
 
 ### GoodsAD Dataset
