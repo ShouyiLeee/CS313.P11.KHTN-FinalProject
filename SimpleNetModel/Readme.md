@@ -38,4 +38,4 @@ pip install tqdm
 
 
 #### Example: 
-![Alt Text](./assets/Example_result.png)
+![Alt Text](https://github.com/ShouyiLeee/CS313.P11.KHTN-FinalProject/blob/main/assets/Example_result.png)
