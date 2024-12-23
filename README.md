@@ -86,11 +86,12 @@ This project implements the following methods for anomaly detection:
 ## Repository Structure
 - `Demo/`: The Streamlit Demo Website for visualize result of project.
 - `Result/`: Stores evaluation results of experimental.
-- `SimpleNetModel`: Training and evaluation scripts.
+- `SimpleNetModel`: SimpleNet implementation.
 - `TrainLoss`: Stores evaluation results and visualizations.
 - `asssets`: Image for display
 - `model/`: Includes pretrained models of each type of object in 3 dataset.
 - `README.md`: Project description.
+- `finalproject-mvtecad.ipynb`: Notebook for 3 others methods implementation.
 
 ## Results
 The performance of each method on the three datasets is summarized, highlighting strengths and weaknesses. Detailed results and insights are provided in the `Result` section of the project repository.
