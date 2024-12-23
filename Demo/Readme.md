@@ -6,9 +6,7 @@ This web demo visualizes the results of our Anomaly Detection system for Quality
 - Upload images of objects or surfaces.
 - Display predictions from four different methods:
   - **AutoEncoder**
-  - **KNN + ResNet**
   - **ResNet + AutoEncoder**
-  - **SimpleNet**
 - Visualize reconstructed images (for AutoEncoder-based methods).
 - Show heatmaps highlighting anomalous regions.
 
@@ -17,53 +15,40 @@ This web demo visualizes the results of our Anomaly Detection system for Quality
    - Users can upload an image of an object or surface to be analyzed.
 
 2. **Processing**:
-   - The system processes the image through one or more selected models.
+   - You can choose the dataset and object type to detect. 
+   - The system processes the image through the selected models.
 
-3. **Results Display**:
+4. **Results Display**:
    - The system outputs:
      - Prediction: Normal or Abnormal.
      - Confidence score.
-     - Reconstructed image (for AutoEncoder).
      - Heatmap of detected anomalies.
+     - Mask
 
 ## Screenshots
 ### Main Interface
-![Main Interface](./screenshots/main_interface.png)
+![Main Interface](https://github.com/ShouyiLeee/CS313.P11.KHTN-FinalProject/blob/main/assets/Home.png)
 
 ### Results Page
-![Results Page](./screenshots/results_page.png)
+![Results Page](https://github.com/ShouyiLeee/CS313.P11.KHTN-FinalProject/blob/main/assets/Predict.png)
 
 ## Usage
-1. **Clone Repository**:
-   ```bash
-   git clone https://github.com/your-repo/anomaly-detection-web-demo.git
-   cd anomaly-detection-web-demo
-   ```
 
-2. **Install Dependencies**:
+1. **Install Dependencies**:
    Follow the instructions in the `requirements.md` file to set up the environment.
 
-3. **Run the Web App**:
+2. **Run the Web App**:
    ```bash
-   python app.py
+   streamlit run DemoWeb.py
    ```
 
-4. **Access the Demo**:
+3. **Access the Demo**:
    Open a browser and navigate to:
    ```
-   http://localhost:5000
+   http://localhost:8501
    ```
 
-5. **Upload and Analyze Images**:
+4. **Upload and Analyze Images**:
    Use the interface to upload images and view results.
 
-## Future Improvements
-- Add support for batch image uploads.
-- Enhance the heatmap visualization with more interpretability.
-- Include a detailed log of predictions and system performance.
 
-## Contributors
-- [Your Name](https://github.com/your-profile)
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
