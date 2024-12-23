@@ -146,3 +146,5 @@ The performance of each method on the three datasets is summarized, highlighting
 
 ## References
 - [SimpleNet](https://github.com/jahongir7174/SimpleNet)
+- [mvtec_anomalydetection](https://github.com/mohan696matlab/mvtec_anomalydetection)
+- [SimpleNet-Paper](https://arxiv.org/pdf/2303.15140)
