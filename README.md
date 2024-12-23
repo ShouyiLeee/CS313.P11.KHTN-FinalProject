@@ -129,3 +129,5 @@ The performance of each method on the three datasets is summarized, highlighting
 ## Contributors
 - [ShouyiLeee](https://github.com/ShouyiLeee)
 
+## References
+- [SimpleNet](https://github.com/jahongir7174/SimpleNet)
