@@ -88,6 +88,7 @@ This project implements the following methods for anomaly detection:
 - `Result/`: Stores evaluation results of experimental.
 - `SimpleNetModel`: Training and evaluation scripts.
 - `TrainLoss`: Stores evaluation results and visualizations.
+- `asssets`: Image for display
 - `model/`: Includes pretrained models of each type of object in 3 dataset.
 - `README.md`: Project description.
 
