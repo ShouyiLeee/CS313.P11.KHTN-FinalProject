@@ -89,15 +89,14 @@ This project implements the following methods for anomaly detection:
 ## Results
 The performance of each method on the three datasets is summarized, highlighting strengths and weaknesses. Detailed results and insights are provided in the `Results` section of the project repository.
 
-| Object         | AutoEncoder          | KNN + ResNet         | ResNet + AutoEncoder | SimpleNet           |
-|----------------|----------------------|----------------------|----------------------|----------------------|
-|                | AUC-ROC | Accuracy | F1   | AUC-ROC | Accuracy | F1   | AUC-ROC | Accuracy | F1   | AUC-ROC | Accuracy | F1   |
-| cigarette_box  | 0.69    | 0.64     | 0.75 | 0.69    | 0.65     | 0.75 | 0.86    | 0.85     | 0.87 | 0.81    | 0.60     | 0.74 |
-| drink_bottle   | 0.51    | 0.54     | 0.70 | 0.51    | 0.53     | 0.69 | 0.58    | 0.56     | 0.71 | 0.61    | 0.60     | 0.75 |
-| drink_can      | 0.56    | 0.50     | 0.66 | 0.56    | 0.52     | 0.65 | 0.68    | 0.67     | 0.71 | 0.60    | 0.50     | 0.66 |
-| food_bottle    | 0.60    | 0.56     | 0.70 | 0.63    | 0.60     | 0.71 | 0.72    | 0.70     | 0.73 | 0.73    | 0.62     | 0.75 |
-| food_box       | 0.59    | 0.55     | 0.62 | 0.57    | 0.53     | 0.57 | 0.66    | 0.64     | 0.69 | 0.71    | 0.64     | 0.77 |
-| food_package   | 0.56    | 0.50     | 0.55 | 0.50    | 0.49     | 0.52 | 0.58    | 0.50     | 0.64 | 0.56    | 0.52     | 0.61 |
+| Object         | AutoEncoder | KNN + ResNet | ResNet + AutoEncoder | SimpleNet |
+|----------------|-------------|--------------|----------------------|-----------|
+| cigarette_box  | 0.69        | 0.69         | 0.86                 | 0.81      |
+| drink_bottle   | 0.51        | 0.51         | 0.58                 | 0.61      |
+| drink_can      | 0.56        | 0.56         | 0.68                 | 0.60      |
+| food_bottle    | 0.60        | 0.63         | 0.72                 | 0.73      |
+| food_box       | 0.59        | 0.57         | 0.66                 | 0.71      |
+| food_package   | 0.56        | 0.50         | 0.58                 | 0.56      |
 
 
 ## Future Work
