@@ -74,9 +74,13 @@ This project implements the following methods for anomaly detection:
    ```bash
    CS313.P11.KHTN-FinalProject
    ```
-3. Install dependencies:
+3. Create env for SimpleNet and DemoWeb:
    ```bash
-   pip install -r requirements.txt
+   conda create env -n yourenv
+   ```
+4. Install dependencies:
+   ```bash
+   pip install ... (for each env )
    ```
 
 ## Repository Structure
