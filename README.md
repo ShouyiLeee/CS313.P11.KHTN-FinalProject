@@ -80,7 +80,7 @@ This project implements the following methods for anomaly detection:
    ```
 4. Install dependencies:
    ```bash
-   pip install ... (for each env )
+   pip install -r requirements.txt (for each env )
    ```
 
 ## Repository Structure
